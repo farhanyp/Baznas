@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.active {
+  @apply font-bold text-2xl;
+}
+
+.btn {
+  @apply text-2xl font-bold text-white flex items-center justify-center bg-wa transition-all;
+}
+
+.btn-md {
+  @apply h-12;
+}
+
+
+.vl {
+  border-right: 1px solid #DADADA;
+  height: 30px;
+}
